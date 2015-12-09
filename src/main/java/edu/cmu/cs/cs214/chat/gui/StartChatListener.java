@@ -50,6 +50,7 @@ public class StartChatListener implements ActionListener {
         mIP = ipField;
         mPort = portField;
         parent = gui;
+        System.out.println("Initializing");
     }
 
 

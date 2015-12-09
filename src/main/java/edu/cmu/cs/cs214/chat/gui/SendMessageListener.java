@@ -42,6 +42,7 @@ public class SendMessageListener implements ActionListener {
         this.message = messageField;
         this.chatClient = client;
         this.gui = listener;
+        System.out.println("Initializing");
     }
 
 

@@ -29,6 +29,7 @@ public class ChatClientImpl extends Thread implements ChatClient {
     @Override
     public void addClientChangeListener(ClientChangeListener listener) {
         listeners.add(listener);
+        System.out.println("I hate Github");
     }
 
 
